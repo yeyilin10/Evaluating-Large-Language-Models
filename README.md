@@ -1,18 +1,18 @@
 # Evaluating Large Language Models
 
-Welcome to the Evaluating Large Language Models repository! This project focuses on evaluating language models (LMs) on natural language inference (NLI) and bias detection within masked LMs.
+This repository contains my individual project on evaluating language models (LMs). The project focuses on two tasks: Task A evaluates LMs' capabilities in natural language inference (NLI), and Task B explores biases in LMs related to sexual orientation.
 
+For Task A, I tested four pre-trained models on the MultiNLI dataset to assess their performance in NLI. The results showed that 'nli-roberta-base' and 'nli-deberta-base' outperformed 'bert-large-uncased' and 'roberta-large'.
 
-## Introduction
+In Task B, I analyzed biases in LMs using the CrowS-Pairs dataset. BERT exhibited higher overall bias, while RoBERTa showed less bias and a greater tendency to favor sentences that counter stereotypes, particularly regarding sexual orientation.
 
-Language models play a crucial role in various natural language processing tasks. This repository aims to provide a framework for evaluating the performance of large language models on two specific tasks: natural language inference (NLI) and bias detection within masked LMs.
-
+For more information, please refer to the [full project report](MSBD5018_individual_ylye.pdf).
 
 ## Usage
 
-To evaluate language models on natural language inference (NLI), you can use the provided scripts. The repository includes the necessary code to preprocess the data and train and evaluate the models.
+To evaluate language models on natural language inference (NLI), you can use the provided script [Capabilities](Capabilities.ipynb). The repository includes the necessary code to preprocess the data and train and evaluate the models.
 
-For bias detection within masked LMs, there are specific scripts. You can follow the instructions in the repository to run the evaluation and analyze the results.
+For bias detection within masked LMs, refer to [Risks](Risks.ipynb). You can follow the instructions in the repository to run the evaluation and analyze the results.
 
 
 
